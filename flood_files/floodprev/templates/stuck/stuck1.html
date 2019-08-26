@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+
+        <head>
+                <link href="https://fonts.googleapis.com/css?family=Mali" rel="stylesheet">
+        </head>
+        
+        <style>
+        html{
+            font-family: 'Mali', cursive;
+        }
+        </style>
+
+
+<head>
+        <link href="https://fonts.googleapis.com/css?family=Mali" rel="stylesheet">
+</head>
+
+
+
+
+<style>
+    html{
+        background-color: green;
+    }
+
+    .personal{
+        position: absolute;
+        right: 5%;
+        top: 1%;
+        color: white;
+        font-size: 200%;
+    }
+
+    #col{
+        background-color: green;
+    }
+
+    .code1{
+        font-family: 'Mali', cursive;
+        padding: 5%;
+        font-size: 120%;
+        color: black;
+        background-color: #42ebf4;
+        outline: none;
+
+    }
+
+    .demo{
+        font-family: 'Mali', cursive;
+        font-size: 100%;
+        padding-bottom: 10%;
+    }
+
+    #ngodisp{
+        position: absolute;
+        color: white;
+        top: 40%;
+        left: 20%;
+        font-size: 300%;
+    }
+
+    #link{
+        position: absolute;
+        top: 70%;
+        left: 45%;
+        font-size: 200%;
+        visibility: hidden;
+    }
+
+</style>
+
+
+
+
+<body>
+
+
+        {% autoescape off %}
+        <span class="personal">
+            <span>
+                Welcome
+            </span>
+        {{data1}}
+        </span>
+        {% endautoescape %}
+
+
+<button  onclick="getLocation()" class="code1">Click on the button so that we can get your co-ordinates and help you out</button>
+
+<p id="demo"></p>
+
+
+<div id="ngodisp">
+
+</div>
+
+<a id="link">NGO DETAILS</a>
+
+
+
+
+</body>
+</html>
