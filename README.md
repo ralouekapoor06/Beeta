@@ -11,5 +11,3 @@ We will be using other API for getting the image of the user's location. We shal
 Also, we will be in touch with many NGO's by giving them the live data of the users.
 
 The whole application will be on production with the help of Azure
-
-Thank you
